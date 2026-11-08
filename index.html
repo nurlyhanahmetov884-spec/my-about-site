@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Обо мне — Мои увлечения</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f2f5e9;
+            color: #263321;
+            line-height: 1.7;
+            padding: 30px 16px;
+        }
+
+        .page {
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            border-radius: 22px;
+            overflow: hidden;
+            box-shadow: 0 12px 35px rgba(34, 55, 24, 0.12);
+        }
+
+        header {
+            background: linear-gradient(135deg, #d8e95a, #b9d83d);
+            padding: 48px 30px;
+            text-align: center;
+        }
+
+        header p {
+            color: #40542a;
+            font-size: 18px;
+        }
+
+        h1 {
+            color: #304b1e;
+            font-size: 48px;
+            margin-bottom: 12px;
+        }
+
+        main {
+            padding: 34px;
+        }
+
+        section {
+            margin-bottom: 28px;
+            padding: 24px;
+            background: #f7f9ef;
+            border-left: 5px solid #a8c83b;
+            border-radius: 12px;
+        }
+
+        h2 {
+            color: #52751f;
+            font-size: 23px;
+            margin-bottom: 10px;
+        }
+
+        .hobbies {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 14px;
+            margin-top: 16px;
+        }
+
+        .hobby {
+            background: white;
+            border: 1px solid #e2e9cc;
+            border-radius: 12px;
+            padding: 16px;
+        }
+
+        .hobby strong {
+            display: block;
+            color: #405f1c;
+            margin-bottom: 4px;
+        }
+
+        .quote {
+            font-size: 20px;
+            font-style: italic;
+            color: #55721e;
+            text-align: center;
+            padding: 12px 10px 28px;
+        }
+
+        footer {
+            background: #304b1e;
+            color: white;
+            text-align: center;
+            padding: 18px;
+        }
+
+        @media (max-width: 600px) {
+            main {
+                padding: 18px;
+            }
+
+            .hobbies {
+                grid-template-columns: 1fr;
+            }
+
+            h1 {
+                font-size: 36px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="page">
+
+    <header>
+        <h1>Обо мне</h1>
+        <p>Мои увлечения, интересы и цели</p>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Немного обо мне</h2>
+
+            <p>
+                Привет! Меня зовут Нурлыхан.
+                Я школьник, который любит узнавать новое,
+                развиваться и пробовать себя в разных направлениях.
+                Для меня важно постоянно двигаться вперёд
+                и добиваться поставленных целей.
+            </p>
+        </section>
+
+        <section>
+            <h2>Мои увлечения</h2>
+
+            <p>
+                Одно из главных увлечений в моей жизни — спорт.
+                Особенно мне нравится волейбол.
+                Мне интересно совершенствовать технику,
+                работать в команде и становиться лучше
+                с каждой тренировкой.
+            </p>
+
+            <div class="hobbies">
+
+                <div class="hobby">
+                    <strong>🏐 Волейбол</strong>
+                    Люблю командную игру, красивые атаки
+                    и спортивное соперничество.
+                </div>
+
+                <div class="hobby">
+                    <strong>💪 Спорт</strong>
+                    Мне нравится тренироваться,
+                    развивать силу и выносливость.
+                </div>
+
+                <div class="hobby">
+                    <strong>🎮 Компьютерные игры</strong>
+                    В свободное время интересуюсь
+                    компьютерными играми и киберспортом.
+                </div>
+
+                <div class="hobby">
+                    <strong>🌍 Английский язык</strong>
+                    Изучаю английский, чтобы расширять
+                    кругозор и открывать новые возможности.
+                </div>
+
+            </div>
+        </section>
+
+        <section>
+            <h2>Мои цели</h2>
+
+            <p>
+                Я хочу добиться успехов в учёбе и спорте,
+                улучшить знания английского языка
+                и получить хорошее образование.
+                Считаю, что настойчивость, дисциплина
+                и постоянная работа над собой
+                помогают достигать больших целей.
+            </p>
+        </section>
+
+        <section>
+            <h2>Моё свободное время</h2>
+
+            <p>
+                В свободное время я занимаюсь спортом,
+                смотрю волейбольные матчи, играю
+                в компьютерные игры или изучаю
+                что-то интересное.
+                Мне нравится проводить время с пользой
+                и узнавать новое.
+            </p>
+        </section>
+
+        <div class="quote">
+            «Большие результаты начинаются с маленьких шагов».
+        </div>
+
+    </main>
+
+    <footer>
+        © 2026 · Моя веб-страница
+    </footer>
+
+</div>
+
+</body>
+</html>
